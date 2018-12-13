@@ -15,13 +15,13 @@
 | Functionality                                         
 | -------------                          
 | Users can create an account and log in                     
-| Users can create a # red-flag record    
-  Users can create a # intervantion record                   
-| Users can edit # red-flag or # intervantion records
-  Users can delete # red-flag or # intervantion records
-  Users can add geolocation(Lat Long Coodinates) attached to their # red-flag or # intervantion records
-  Users can change geolocation(Lat Long Coodinates) attached to their # red-flag or # intervantion records
-  Admin can change the status of a recordto either # under # investigation, # rejected or # resolved.
+| Users can create a red-flag record    
+  Users can create a intervantion record                   
+| Users can edit red-flag or intervantion records
+  Users can delete red-flag or intervantion records
+  Users can add geolocation(Lat Long Coodinates) attached to their red-flag or intervantion records
+  Users can change geolocation(Lat Long Coodinates) attached to their red-flag or intervantion records
+  Admin can change the status of a recordto either under investigation,rejected or resolved.
                 
 
 # Languages used

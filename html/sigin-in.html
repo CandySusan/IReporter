@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="../css/sign-in.css">
+    <script src=""></script>
+    <title>Index</title>
+</head>
+
+<body>
+    <header>
+        <p class="courier"> <big>IReporter</big></p>
+    
+
+        <div class="container">
+            <ul class="topnav">
+                <li><a class="active" href="../UI/index.html">Home</a></li>
+                <li><a  href="../UI/login.html">Login</a></li>
+                <li><a href="../UI/admin.html">Admin</a></li>
+                <li><a  href="../UI/view.html">View</a></li>
+                <li><a  href="../UI/user.html">Create Record</a></li>
+                <li><a  href="../UI/index.html">Contact</a></li> 
+                <li class="right"><a href="../UI/user_profile.html">User_Profile</a></li>
+            </ul>
+        </div>
+
+    </header>
+
+    <div id="reg-panel">
+        <div class="content-body">
+            <div class="reg-title">SignUp</div>
+            <fieldset class="register-form
+                <label> Name:</label>
+                <input id = "rg_cn" type="text" maxlength="60" class="input tb-name" />
+                <br>
+                Email:
+                <input id="rg_em" type="text" maxlength="50" class="input tb-email" />
+                <span id="alert"></span><br><br>
+
+                Password:
+                <input id="rg_p1" type="password" maxlength="20" class="input tb-password1" /><br>
+                <br>
+                Confirm Password:
+                <input id="rg_p2" type="password" maxlength="20" class="input tb-password2" />
+                <br><br>
+                How did you hear about us?
+                <select id="rg_hh" class="dd-hh">
+                    <option value="0">Select...</option>
+                    <option>A Friend</option>
+                    <option>Google</option>
+                    <option>Email</option>
+                    <option>Facebook</option>
+                    <option>Twitter</option>
+                    <option>Other</option>
+                </select>
+            </fieldset>
+            <div class="btn-container">
+                <button type="button" id="btnRegister" class="btn-register" onclick="myFunction()">
+                    <a href="../html/login.html">SignUp</a></button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

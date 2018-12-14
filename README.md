@@ -3,7 +3,7 @@
  IReporter is an application that enables any/every citizen to bring any form of corruption to the notice of appropriate authorities and the general public
 
 
-<<<<<<< HEAD
+# Project
 =======
 - Create a HTML,CSS,and Javascript folders.
 - Open HTML files in browser to see changes to website
@@ -44,4 +44,4 @@ This project is deployed on github pages []
 # Author
 
 Candy Susan
->>>>>>> c9661ce5f826effd5350b3c42d1bf307a528c376
+

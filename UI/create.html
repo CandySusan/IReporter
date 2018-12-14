@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="../css/create.css">
+
+    <title>UserPage</title>
+</head>
+
+<body>
+    <header>
+        <p class="courier"> <big>IReporter</big></p>
+        <nav class="loginPanel">
+            <div id="loginPanel">
+                <div id="nliPanel">
+                    <div class="login"><b>Logged In</b></div>
+
+                    <div class="style">
+                        <button><a href="../UI/sigin-in.html">LogOut</a></button>
+
+
+                        <button><a href="../UI/user_profile.html">MyRecords</a></button>
+
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <ul class="topnav">
+                <li><a class="active" href="../UI/create.html">Create Record</a></li>
+                <li><a href="../UI/view.html">Dashboard</a></li>
+
+                <li><a href="../UI/sigin-in.html">Contact</a></li>
+                <li class="right"><a href="../UI/user_profile.html">User Profile</a></li>
+            </ul>
+        </div>
+
+    </header>
+    <form>
+    <div class="form">
+        <div class="login-group">
+            <label class="form-label" for="field-1">Record</label>
+            <span class="desc"></span><br>
+            <select class="form-control">
+                <option></option>
+                <option>red-flag​​ </option>
+                <option>​intervention​​</option>
+            </select>
+
+        <div class="form-group">
+            <label class="form-label" for="field-5">Date of Incident</label>
+            <span class="desc">e.g. "14/12/2018"</span>
+            <div class="controls">
+                <input type="text" value="" class="form-control datepicker" data-format="mm/dd/yyyy" value="">
+            </div>
+        </div>
+        <div>
+        <label class="form-label" for="field-5">Geolocation</label><br>
+        <button onclick="getLocation()">Add Location</button>
+        <p id="demo"></p>
+        </div>
+        <div class="form-group">
+            <label class="form-label" for="field-1">Add Image/Video</label>
+            <span class="desc"></span><br>
+            <div class="controls">
+                <input type="file" class="form-control" id="field-5">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="form-label" for="field-6">Brief</label>
+            <span class="desc">e.g. "Enter any size of text description here"</span>
+            <div class="controls">
+                <textarea class="form-control autogrow" id="field-6"></textarea>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div>
+        <div class="text-left">
+            <button type="button" class="btn btn-primary"><a href="../UI/user_profile.html">Add Record</a></button>
+            <button type="button" class="btn">Delete Record</button>
+        </div>
+    </div>
+    </form>
+    </div>
+
+
+    <footer id="footer">
+
+        <a href="#" target="_blank">
+            <p class="follow">follow us on:</p>Facebook
+            <div class="social-facebook"></div><br>
+        </a>
+        <a href="#" target="_blank">Twitter
+            <div class="social-twitter"></div>
+        </a>
+
+
+    </footer>
+        <script src="../js/create.js"></script>
+</body>
+
+</html>

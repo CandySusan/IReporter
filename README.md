@@ -33,7 +33,7 @@
 
 # Deployment
 
-This project is deployed on github pages []
+This project is deployed on github pages [https://candysusan.github.io/IReporter/]
 
 # Acknowledgments
 

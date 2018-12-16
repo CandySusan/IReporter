@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="../css/user_profile.css">
+
+    <title>UserPage</title>
+</head>
+
+<body>
+    <header>
+        <p class="courier"> <big>IReporter</big></p>
+        <nav class="loginPanel">
+            <div id="loginPanel">
+                <div id="nliPanel">
+                    <div class="login"><b>Logged In</b></div>
+
+                    <div class="style">
+                        <button><a href="../UI/index.html">LogOut</a></button>
+
+
+                        <button><a href="../UI/user_profile.html">MyRecords</a></button>
+
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <ul class="topnav">
+
+            <li><a class="active" href="../UI/user_profile.html">User Profile</a></li>
+
+            <li class="right"><a href="../UI/view.html">Dashboard</a></li>
+
+        </ul>
+    </div>
+
+    </header>
+
+    <h1>
+        <center>
+
+            <b> My Records</b></center>
+    </h1>
+
+    
+        <p class="pending"> Red-flag: 3 <br><br>
+            Intervention : 2<br><br>
+
+        </p>
+    
+
+    <div class="content">
+        <table>
+            <tr>
+                <td><b>
+                        Red-flag</b>
+                </td>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        1
+                    </td>
+                    <td>
+                        <button id="myBtn">View Record</button>
+                        <div id="myModal" class="modal">
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <p>
+                                    <table>
+                                        <tr>
+                                            <table>
+                                                <tr>
+                                                    <th><b>Record</b></th>
+                                                    <th><b>Date of incident</b></th>
+                                                    <th><b>Geolocation</b></th>
+                                                    <th><b>Image/Video</b></th>
+                                                    <th><b>Brief Description</b></th>
+
+
+                                                </tr>
+                                                <tr>
+                                                    <td>Red-flag</td>
+                                                    <td>12/10/18</td>
+                                                    <td>Latitude: 0.32030719999999996<br>
+                                                            Longitude: 32.600063999999996</td>
+                                                    <td>image/video</td>
+                                                    <td><p>It happened soo fast you could miss it when he bribed the
+                                                        voters</p></td>
+
+                                                </tr>
+                                                <tr>
+                                                    <td>Red-flag</td>
+                                                    <td>12/10/18</td>
+                                                    <td>Latitude: 0.32030719999999996<br>
+                                                            Longitude: 32.600063999999996</td>
+                                                    <td>image/video</td>
+                                                    <td><p>It happened soo fast you could miss it when he bribed the
+                                                        voters</p></td>
+
+                                                </tr>
+
+                                            </td>
+                                            </table>
+
+                                </p>
+                                <button id="myBtn1"> <a href="../UI/user.html">Delete Record</a></button><br>
+                                <button id="myBtn1"> <a href="../UI/admin.html">Edit Geolocation</a></button>
+                            </div>
+
+                        </div><br>
+                    </td>
+                </tr>
+
+                <tr>
+
+                    <td>
+                        2
+                    </td>
+
+                    <td>
+                        <button id="myBtn">View Record</button>
+                        <div id="myModal" class="modal">
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <p>
+                                    <table>
+                                        <tr>
+                                            <table>
+                                                    <tr>
+                                                            <th><b>Record</b></th>
+                                                            <th><b>Date of incident</b></th>
+                                                            <th><b>Latitude: 0.32030719999999996<br>
+                                                                    Longitude: 32.600063999999996</b></th>
+                                                            <th><b>Image/Video</b></th>
+                                                            <th><b>Brief Description</b></th>
+        
+        
+                                                        </tr>
+                                                        <tr>
+                                                                <td>Red-flag</td>
+                                                                <td>12/11/18</td>
+                                                                <td>Location</td>
+                                                                <td>image/video</td>
+                                                                <td><p>The LC5 chairperson caught in the act of money laundering</p></td>
+            
+                                                            </tr>
+
+                                            </table>
+
+
+                                </p>
+                            </div>
+
+                        </div>
+                    </td>
+                </tr>
+
+
+            </tbody>
+
+        </table>
+        </td>
+        </thead>
+        <tbody id="DeilveryOrderBody">
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="6" align="right" id="order_total">
+
+                </td>
+            </tr>
+        </tfoot>
+    </div>
+    </table>
+    </td>
+    </tr>
+    </table>
+    </div>
+    
+
+    <form action="" method="get" class="form">
+        View Record:<br>
+        <input list="deliveries" name="deliveryr">
+        <datalist id="deliveries">
+            <option value="Red-flag">
+            <option value="Intervention">
+        </datalist>
+        <button type="button"><a href="../UI/view.html">Check</a></button>
+    </form>
+
+
+
+    <footer id="footer">
+        <a href="#" target="_blank">
+            <p class="follow">follow us on:</p>Facebook
+            <div class="social-facebook"></div><br>
+        </a>
+        <a href="#" target="_blank">Twitter
+            <div class="social-twitter"></div>
+        </a>
+
+
+    </footer>
+
+    <script src="../js/user_profile.js"></script>
+
+
+
+
+
+
+</body>
+
+</html>

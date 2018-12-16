@@ -15,6 +15,8 @@ ul.topnav {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    width: 1045px; 
+    margin-left: 70px;
 }
 
 ul.topnav li {float: left;}
@@ -55,6 +57,7 @@ p.courier{
     font-family: Arial, Helvetica, sans-serif;
     font-style: oblique;
     color: maroon;
+    margin-left: 70px;
 
 }
 #nliPanel{
@@ -102,21 +105,33 @@ p.courier{
 }
 
 
-        
 #footer { 
-    position: relative; 
-    width: 1220px; 
-    margin: 0 auto; 
-    background-color: #4793ba; 
-    min-height: 140px; 
-    padding: 8px; 
-    box-sizing: border-box; 
+
+    position: relative;
+    width: 1050px;
+    margin: 0 auto;
+    background-color:black;
+    min-height: 140px;
+    padding: 8px;
+    box-sizing: border-box;
     -moz-box-sizing: border-box;
-    padding-left: 60px; 
-    padding-right: 50px;
-    margin-left: 85px;
+  
+    margin-left: 155px;
+    text-align: center;
+    color: white;
+ 
+    
     
 }
+@media screen and (max-width: 600px){
+    #footer {
+  display: none;
+    
+    }
+}
+
+    
+
 #footer .social-facebook {
      position: absolute; 
      top: -13px; 
@@ -182,41 +197,6 @@ input .password{
     float: right;
 }
         
-#footer { 
-    position: relative; 
-    width: 1110px; 
-    margin: 0 auto; 
-    background-color: #4793ba; 
-    min-height: 140px; 
-    padding: 8px; 
-    box-sizing: border-box; 
-    -moz-box-sizing: border-box;
-    padding-left: 80px;
-    padding-right: 210px;
-    margin-left: 95px;
-    
-}
-#footer .social-facebook {
-     position: absolute; 
-     top: -13px; 
-     right: 130px; 
-     width: 82px; 
-     height: 52px; 
-     
-     cursor: pointer; }
-#footer .social-twitter { 
-    position: absolute; 
-    top: -13px; 
-    right: 50px; 
-    width: 82px; 
-    height: 82px; 
-    
-    cursor: pointer; 
-}
-
-#msg{
-    color: red;
-}
 
 #footer a { 
     color: #fff; 
@@ -231,11 +211,9 @@ input .password{
 
 
 
-.parcelPanelBottom{
-    padding-left: 200px;
-}
+
 .follow{
-    text-align: right;
+    text-align: center;
     color: white;
     padding-left: 15px;
 }
@@ -248,11 +226,11 @@ input .password{
 
 table {
     border:0;
-    width  :100%;
+    width  :90%;
     padding :4px;
     color:black;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 45px;
+    margin-left: 80px;
  
 }
 @media screen and (max-width: 600px){
@@ -296,9 +274,9 @@ tr:hover{
     margin-left: 500px;
 }
 .pending{
-    margin-left: 150px;
-    color:blue;
-    font:20px;
+    margin-left: 190px;
+    color:maroon;
+    font-size:22px;
 
 
 }

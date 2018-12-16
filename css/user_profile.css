@@ -255,6 +255,14 @@ table {
     margin-left: 45px;
  
 }
+@media screen and (max-width: 600px){
+    table {
+        float: center;
+        font:14px;
+        color:maroon;
+        
+    }
+}
 
 th {
     text-align: left;

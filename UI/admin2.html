@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="../css/admin2.css">
+    <script src=""></script>
+    <title>Edit Status</title>
+</head>
+
+<body>
+    <header>
+        <p class="courier"> <big>IReporter</big></p>
+
+
+
+
+        <div class="container">
+            <ul class="topnav">
+                <li><a class="active" href="../UI/admin2.html">Admin</a></li>
+                <li><a href="../UI/sigin-in.html">Home</a></li>
+                <li><a href="../UI/login.html">Login</a></li>
+                <li><a href="../UI/sigin-in.html">Contact</a></li>
+                <li class="right"><a href="../UI/user_profile.html">User Profile</a></li>
+            </ul>
+        </div>
+
+    </header>
+
+    <p>
+        <h1>
+            <center>User Record</center>
+        </h1>
+    </p>
+
+   
+    <div id="reg-panel">
+        <div class="content-body">
+
+            <b class="date">Date of incident</b>: 12/12/18<br>
+            <b class="date">Record Status</b>: Rejected<br>
+            <select id="">
+                <option value="144">Edit Status</option>
+                <option value="144">Under Investigation</option>
+                <option value="224">Resolved</option>
+                <option value="136">Rejected</option>
+
+                <option disabled="disabled" value="016">----------------</option>
+
+            </select><br>
+            <b class="date">Record</b>: Red-flag <br>
+
+            <b class="date">Geolocation</b>: Latitude: 0.32030719999999996<br>
+            Longitude: 32.600063999999996<br>
+            <input id="rg_p1" type="text" maxlength="20" placeholder="Edit Geolocation" class="input tb-Geolocation" /><br>
+            <b class="date">Add Image/Video</b>:
+            <span class="desc"></span><br>
+            <div class="controls">
+                <input type="file" class="form-control" id="field-5">
+            </div>
+        <b class="date">Brief Description</b>:
+        <span class="desc">Ministers taking bribe from foreign investors</span>
+        <div class="controls">
+            <textarea class="form-control autogrow" id="field-6"></textarea>
+        </div>
+
+        <button> <a href="../UI/login.html">LogOut</a></button>
+
+    </div>
+    </div>
+
+    <div id="footer">
+
+        <a href="#" target="_blank">
+            <p class="follow">follow us on:</p>Facebook
+            <div class="social-facebook"></div><br>
+        </a>
+        <a href="#" target="_blank">Twitter
+            <div class="social-twitter"></div>
+        </a>
+        </div>
+
+</body>
+
+</html>

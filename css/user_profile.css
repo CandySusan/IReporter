@@ -3,6 +3,13 @@ body {
     background-color: grey;
     font: 10px;
 }
+@media screen and (max-width: 1000px) and (min-width: 600px) {
+   body{ 
+    background-color: grey;
+    font: 10px;
+
+}
+}
 @media screen and (max-width: 600px){
     body{
         background-color:whitesmoke;
@@ -41,14 +48,17 @@ ul.topnav li.right {
     float: right;
 }
 
+
 @media screen and (max-width: 600px){
     ul.topnav li.right, 
-    ul.topnav li {
+    ul.topnav li,ul.topnav {
         float: none;
         display: none;
         
+        
     }
 }
+
 p.courier{
     float: left;
     padding-left: 100px;
@@ -60,9 +70,21 @@ p.courier{
     margin-left: 70px;
 
 }
+
+@media only screen and (max-width: 600px){
+    p.courier{
+        display: none;   
+        
+    }
+}
 #nliPanel{
     float: right;
     padding-top: 15px;
+}
+@media screen and (max-width: 600px){
+
+    #nliPanel{ display: none;
+}
 }
 #loginPanel{
     float: right;
@@ -70,12 +92,18 @@ p.courier{
     padding-right: 100px;
     padding-left: 1000px;
 }
+@media screen and (max-width: 600px){
+
+        #loginPanel{ display: none;
+    }
+}
 
 .container{
     padding-top: 150px;
     padding-left: 100px;
     padding-right: 140px;
 }
+
 
 .style{
     overflow:hidden; 
@@ -103,7 +131,11 @@ p.courier{
     color: maroon;
     margin-right: 10px;
 }
-
+@media screen and (max-width: 600px){
+    .login{
+        display: none
+    }
+}
 
 #footer { 
 
@@ -111,12 +143,11 @@ p.courier{
     width: 1050px;
     margin: 0 auto;
     background-color:black;
-    min-height: 140px;
+    min-height: 90px;
     padding: 8px;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
-  
-    margin-left: 155px;
+    margin-left: 170px;
     text-align: center;
     color: white;
  
@@ -228,16 +259,26 @@ table {
     border:0;
     width  :90%;
     padding :4px;
-    color:black;
+    color:white;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 80px;
+    margin-left: 95px;
  
 }
+@media screen and (max-width: 1000px) and (min-width: 600px) {
+    table { float: center;
+        font:14px;
+        color:maroon;
+        width: 80%;
+                
+      
+ }
+ }
 @media screen and (max-width: 600px){
     table {
         float: center;
         font:14px;
         color:maroon;
+        width: 190px;
         
     }
 }
@@ -275,10 +316,18 @@ tr:hover{
 }
 .pending{
     margin-left: 190px;
-    color:maroon;
+    color:white;
     font-size:22px;
 
 
+}
+@media screen and (max-width: 600px){
+    .pending {
+        float: center;
+        font:14px;
+        color:maroon;
+        
+    }
 }
 
 
@@ -322,4 +371,15 @@ tr:hover{
 }
 #myBtn1{
     margin-left: 50%;
+}
+
+.record{
+    float: center;
+    font: 14px;
+    color: white;
+}
+@media screen and (max-width: 600px){
+    .record {
+        display: none;
+    }
 }
